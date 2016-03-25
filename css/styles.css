@@ -10,8 +10,34 @@ h2 {
 .jumbotron {
   text-align: center;
   font-weight: bold;
+  background: #eaeaea;
+  margin-top: 20px;
 }
 .jumbotron img {
   max-width: 300px;
   max-height: auto;
+}
+#profile {
+  background-color: #d1d1d1	;
+  padding: 5px;
+}
+#profile input {
+  background-color: #eaeaea;
+}
+#vacation-goals {
+  background-color: #d1d1d1;
+  padding: 5px;
+}
+#vacation-goals input {
+  background-color:#eaeaea;
+}
+#buttonHolder {
+  padding-left: 40%;
+  pading-right: 30%;
+
+}
+#buttonHolder .btn {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
 }
