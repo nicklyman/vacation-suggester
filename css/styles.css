@@ -1,0 +1,23 @@
+body {
+  font-family: monospace;
+}
+h2 {
+  text-align: center;
+}
+.btn {
+  display: block;
+}
+.jumbotron {
+  text-align: center;
+  font-weight: bold;
+}
+.jumbotron img {
+  position: relative;
+  width: 100%
+}
+.jumbotron h1 {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+}

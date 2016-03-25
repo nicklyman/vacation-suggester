@@ -10,7 +10,17 @@
   </head>
   <body>
     <div class="container">
-      <h1>Your Profile</h1>
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="img/world.jpg" alt="A world map with flags delineating the country borders.">
+          </div>
+        </div>
+        <h1>
+          Where Should You Go On Vacation Next?
+        </h1>
+      </div>
+      <h2>Profile Information</h2>
       <form id="profile">
         <div class="form-group">
           <label for="firstname">First name:</label>
@@ -24,11 +34,51 @@
           <label for="residence">Current place of residence:</label>
           <input id="residence" class="form-control" type="text">
         </div>
+      </form>
+      <h2>What Do You Want From Your Next Vacation?</h2>
+      <form id="vacation-goals">
+        <ol>
+          <li>
+            <label class="q1">Do you prefer to travel close to home or far away?</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q1" value="0">
+                "Close to home!"
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="q1" value="10">
+                "Far away from home!"
+              </label>
+            </div>
+          </li>
+          <li>
+            <label class="q2">What level of creature comforts do you want?</label>
+            <div class="radio"
+              <label>
+                <input type="radio" name="q2" value="">
+                "Only a 5 star hotel will do!"
+              </label>
+            </div>
+            <div class="radio"
+              <label>
+                <input type="radio" name="q2" value="">
+                "A bed would be nice, but I am only there to sleep!"
+              </label>
+            </div>
+            <div class="radio"
+              <label>
+                <input type="radio" name="q2" value="">
+                "A tent would be nice, but a tarp will do!"
+              </label>
+            </div>
+        </ol>
 
 
 
 
-
+        <button type="submit" class="btn">Where should I go?</button>
       </form>
 
     </div>
