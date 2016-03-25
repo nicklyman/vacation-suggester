@@ -1,3 +1,6 @@
+#dream-vacation {
+  display: none;
+}
 body {
   font-family: monospace;
   background: #404040;
@@ -25,6 +28,21 @@ img {
   max-width: 300px;
   max-height: auto;
 }
+.jumbotron-result {
+  text-align: center;
+  font-weight: bold;
+  background: #eaeaea;
+  padding: 10px;
+  margin-top: 20px;
+}
+.jumbotron-result img {
+  max-width: 90%;
+}
+#dream-vacation {
+  text-align: center;
+  padding: 5px;
+  background-color: #eaeaea;
+}
 #profile {
   background-color: #d1d1d1;
   border-radius: 5px;
@@ -40,6 +58,15 @@ img {
 }
 #vacation-goals input {
   background-color:#eaeaea;
+}
+#buttonProfile {
+  padding-left: 30%;
+  pading-right: 30%;
+}
+#buttonProfile .btn {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
 }
 #buttonHolder {
   padding-left: 40%;

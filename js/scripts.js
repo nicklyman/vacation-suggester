@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("form#vacation-goals").submit(function() {
+  $("form#vacation-goals").submit(function(event) {
     event.preventDefault();
     var answer1 = parseInt($("input:radio[name=q1]:checked").val());
     var answer2 = parseInt($("input:radio[name=q2]:checked").val());
@@ -17,3 +17,18 @@ $(document).ready(function() {
     }
   });
 });
+
+// $(document).ready(function() {
+//   $("form#profile").submit(function(event) {
+//     var firstNameInput = ($("input#firstname").val();
+//     var lastNameInput = ($("input#lastname").val();
+//     var residenceInput = ($("input#residence").val();
+//     $(".firstname").text(firstNameInput);
+//     $(".lastname").text(lastNameInput);
+//     $(".residence").text(residenceInput);
+//     }
+//     $('#dream-vacation').show();
+//
+//     event.preventDefault();
+//   });
+// });
