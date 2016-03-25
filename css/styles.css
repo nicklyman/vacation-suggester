@@ -25,7 +25,7 @@ img {
   margin-top: 20px;
 }
 .jumbotron img {
-  max-width: 300px;
+  max-width: 400px;
   max-height: auto;
 }
 .jumbotron-result {
@@ -38,26 +38,29 @@ img {
 .jumbotron-result img {
   max-width: 90%;
 }
+#form {
+  font-size: 16px;
+}
 #dream-vacation {
   text-align: center;
   padding: 5px;
   background-color: #eaeaea;
 }
 #profile {
-  background-color: #d1d1d1;
+  background-color: #eaeaea;
   border-radius: 5px;
   padding: 5px;
 }
 #profile input {
-  background-color: #eaeaea;
+  background-color: #ffffff;
 }
 #vacation-goals {
-  background-color: #d1d1d1;
+  background-color: #eaeaea;
   border-radius: 5px;
   padding: 5px;
 }
 #vacation-goals input {
-  background-color:#eaeaea;
+  background-color:#ffffff;
 }
 #buttonProfile {
   padding-left: 30%;
@@ -69,11 +72,11 @@ img {
   font-weight: bold;
 }
 #buttonHolder {
-  padding-left: 40%;
+  padding-left: 30%;
   pading-right: 30%;
 }
 #buttonHolder .btn {
   color: red;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
 }
