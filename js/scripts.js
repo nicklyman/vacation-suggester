@@ -9,11 +9,11 @@ $(document).ready(function() {
     var total = 0;
     total = (answer1+answer2+answer3+answer4+answer5)
     if (0 <= total && total <=5) {
-      $(location).attr("href", "img/el-chalten.jpg").css({"position":"relative"})
+      $(location).attr("href", "option1.html")
     } else if (6 <= total && total <=25) {
-      $(location).attr("href", "img/vancouver-bc.jpg")
-    } else if (total > 25) {
-      $(location).attr("href", "img/abu-dhabi.jpg")
+      $(location).attr("href", "option2.html")
+    } else if (total >= 26) {
+      $(location).attr("href", "option3.html")
     }
   });
 });
