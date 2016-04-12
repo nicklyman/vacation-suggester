@@ -15,23 +15,14 @@ $(document).ready(function() {
     } else if (total >= 26) {
       $(location).attr("href", "dubai.html")
     }
+  $("form#profile").submit(function(event) {
+    var firstNameInput = $("input.firstname").val();
+    var lastNameInput = $("input.lastname").val();
+    var residenceInput = $("input.residence").val();
+    $(".firstname").text(firstNameInput);
+    $(".lastname").text(lastNameInput);
+    $(".residence").text(residenceInput);
+    $("#dream-vacation").show();
+    });
   });
 });
-
-
-//I want to incorporate the profile information below but am having trouble incorporating two form types in this scripts.js file
-
-// $(document).ready(function() {
-//   $("form#profile").submit(function(event) {
-//     var firstNameInput = ($("input#firstname").val();
-//     var lastNameInput = ($("input#lastname").val();
-//     var residenceInput = ($("input#residence").val();
-//     $(".firstname").text(firstNameInput);
-//     $(".lastname").text(lastNameInput);
-//     $(".residence").text(residenceInput);
-//     }
-//     $('#dream-vacation').show();
-//
-//     event.preventDefault();
-//   });
-// });
